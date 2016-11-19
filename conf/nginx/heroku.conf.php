@@ -18,6 +18,7 @@ http {
 
     # set client body size to 64M #
     client_max_body_size 64M;
+    server_tokens off;
 
     fastcgi_buffers 256 4k;
 
